@@ -3,7 +3,7 @@ import React from 'react';
 import './home.scss';
 
 const Home = () => {
-	return <div></div>;
+	return <div>Hello world</div>;
 };
 
 export default Home;
