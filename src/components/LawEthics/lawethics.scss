@@ -1,0 +1,22 @@
+.lawethics-wrapper {
+	display: flex;
+
+	.left {
+		width: 50rem;
+		height: 92vh;
+		background-color: gray;
+	}
+
+	.right {
+		width: 50rem;
+
+		.heading {
+			padding: 4rem 5rem 2rem 5rem;
+		}
+
+		.text {
+			padding: 0 5rem 2.5rem 5rem;
+			font-size: 1em;
+		}
+	}
+}
