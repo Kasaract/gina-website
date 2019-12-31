@@ -5,26 +5,26 @@ import './navbar.scss';
 
 const NavBar = () => {
 	return (
-		<div>
+		<div className="navbar-wrapper">
 			<Link to="/">
-				<div>GINA NGUYEN</div>
+				<div className="name">GINA NGUYEN</div>
 			</Link>
-			<ul>
-				<Link to="/about">
-					<li>about</li>
-				</Link>
-				<Link to="/writing">
-					<li>writing</li>
-				</Link>
-				<Link to="/photography">
-					<li>photography</li>
-				</Link>
-				<Link to="/lawethics">
-					<li>law {'&'} ethics</li>
-				</Link>
-				<Link to="/contact">
-					<li>contact</li>
-				</Link>
+			<ul className="tab-list">
+				<li className="tab">
+					<Link to="/about">about</Link>
+				</li>
+				<li className="tab">
+					<Link to="/writing">writing</Link>
+				</li>
+				<li className="tab">
+					<Link to="/photography">photography</Link>
+				</li>
+				<li className="tab">
+					<Link to="/lawethics">law {'&'} ethics</Link>
+				</li>
+				<li className="tab" id="last-tab">
+					<Link to="/contact">contact</Link>
+				</li>
 			</ul>
 		</div>
 	);

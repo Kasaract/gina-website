@@ -1,0 +1,36 @@
+.navbar-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 6em;
+	align-items: center;
+	padding: 0 2em;
+
+	// style for Link component
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+	.name {
+		font-size: 2.5em;
+		letter-spacing: 0.3em;
+	}
+
+	.tab-list {
+		display: flex;
+		flex-direction: row;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		.tab {
+			padding: 0 2em;
+			border-right: 1.2px rgb(214, 214, 214) solid;
+		}
+
+		#last-tab {
+			border-right: none;
+		}
+	}
+}
