@@ -1,0 +1,23 @@
+$about-height: 100vh-8vh;
+$about-width: 100vw;
+
+.about-wrapper {
+	height: $about-height;
+	width: $about-width;
+
+	.row {
+		display: flex;
+		flex-direction: row;
+
+		.img {
+			background-color: indianred;
+			height: $about-height / 2;
+			width: $about-width / 2;
+		}
+
+		.text-wrapper {
+			height: $about-height / 2;
+			width: $about-width / 2;
+		}
+	}
+}
