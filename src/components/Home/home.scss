@@ -1,0 +1,33 @@
+.home-wrapper {
+	width: 100vw;
+	// overflow: hidden;
+
+	img {
+		position: fixed;
+		width: 100%;
+	}
+
+	.social-media {
+		position: relative;
+		top: 85vh;
+		margin: 0 1em;
+		padding: 0;
+		width: 12.5em;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		list-style: none;
+
+		.icon {
+			// Temporarory shape
+			height: 35px;
+			width: 35px;
+			background-color: white;
+			border-radius: 100%;
+
+			&:hover {
+				background-color: lightgrey;
+			}
+		}
+	}
+}
