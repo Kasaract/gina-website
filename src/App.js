@@ -2,9 +2,15 @@ import React from 'react';
 
 import Routes from './Routes';
 import './App.css';
+import NavBar from './share/NavBar';
 
 function App() {
-	return <Routes />;
+	return (
+		<>
+			<NavBar />
+			<Routes />
+		</>
+	);
 }
 
 export default App;
