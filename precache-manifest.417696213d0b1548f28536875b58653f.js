@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d092ecb60ae04806e945ddf6343c8f0",
+    "revision": "0d62f0cfc2ce3633f1254c6cfa8bcb44",
     "url": "/gina-website/index.html"
   },
   {
-    "revision": "0bb3c4e7e71efb2b1c09",
+    "revision": "23a2186a8b51be8634cd",
     "url": "/gina-website/static/css/main.1eab6ffb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gina-website/static/js/2.b4a1459f.chunk.js.LICENSE"
   },
   {
-    "revision": "0bb3c4e7e71efb2b1c09",
-    "url": "/gina-website/static/js/main.ee90ad7c.chunk.js"
+    "revision": "23a2186a8b51be8634cd",
+    "url": "/gina-website/static/js/main.b02d0dc0.chunk.js"
   },
   {
     "revision": "434501365b5774b21173",
