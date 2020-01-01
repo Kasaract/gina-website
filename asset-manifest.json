@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gina-website/static/css/main.1eab6ffb.chunk.css",
+    "main.js": "/gina-website/static/js/main.ee90ad7c.chunk.js",
+    "main.js.map": "/gina-website/static/js/main.ee90ad7c.chunk.js.map",
+    "runtime-main.js": "/gina-website/static/js/runtime-main.06531177.js",
+    "runtime-main.js.map": "/gina-website/static/js/runtime-main.06531177.js.map",
+    "static/js/2.b4a1459f.chunk.js": "/gina-website/static/js/2.b4a1459f.chunk.js",
+    "static/js/2.b4a1459f.chunk.js.map": "/gina-website/static/js/2.b4a1459f.chunk.js.map",
+    "index.html": "/gina-website/index.html",
+    "precache-manifest.0b29fac54ac248860be7008aeca97332.js": "/gina-website/precache-manifest.0b29fac54ac248860be7008aeca97332.js",
+    "service-worker.js": "/gina-website/service-worker.js",
+    "static/css/main.1eab6ffb.chunk.css.map": "/gina-website/static/css/main.1eab6ffb.chunk.css.map",
+    "static/js/2.b4a1459f.chunk.js.LICENSE": "/gina-website/static/js/2.b4a1459f.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06531177.js",
+    "static/js/2.b4a1459f.chunk.js",
+    "static/css/main.1eab6ffb.chunk.css",
+    "static/js/main.ee90ad7c.chunk.js"
+  ]
+}
