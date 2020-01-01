@@ -13,11 +13,11 @@ const Routes = () => {
 	return (
 		<Switch>
 			<Route exact path="/" component={Home} />
-			<Route path="/about" component={About} />
-			<Route path="/writing" component={Writing} />
-			<Route path="/photography" component={Photography} />
-			<Route path="/lawethics" component={LawEthics} />
-			<Route path="/contact" component={Contact} />
+			<Route exact path="/about" component={About} />
+			<Route exact path="/writing" component={Writing} />
+			<Route exact path="/photography" component={Photography} />
+			<Route exact path="/lawethics" component={LawEthics} />
+			<Route exact path="/contact" component={Contact} />
 			<Route path="*" component={Error404} />
 		</Switch>
 	);
