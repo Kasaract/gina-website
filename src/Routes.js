@@ -12,6 +12,7 @@ import Error404 from './components/Error404';
 const Routes = () => {
 	return (
 		<Switch>
+			<Route exact path="/gina-website/" component={Home} />
 			<Route exact path="/" component={Home} />
 			<Route exact path="/about" component={About} />
 			<Route exact path="/writing" component={Writing} />
