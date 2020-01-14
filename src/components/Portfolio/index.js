@@ -15,6 +15,9 @@ import './portfolio.scss';
 const Portfolio = () => {
 	return (
 		<div className="portfolio-wrapper">
+			<div className="section-title">
+				<div className="title"> portfolio </div>
+			</div>
 			<div className="row">
 				<div className="card">
 					<div className="icon">
