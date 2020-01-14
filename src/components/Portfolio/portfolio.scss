@@ -1,0 +1,40 @@
+.portfolio-wrapper {
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #f8f9fa;
+
+	.row {
+		display: flex;
+		justify-content: center;
+	}
+
+	.card {
+		border: 1px dotted #e7e7e7;
+		width: 12.5rem;
+		height: 12.5rem;
+		margin: 1em 2.5em;
+
+		&-img {
+			height: 50px;
+			width: 50px;
+			margin: auto;
+			background-color: gray;
+		}
+
+		&-title {
+			margin: 1.2rem 0;
+			padding: 0 1rem;
+			text-align: center;
+			font-size: 1.2em;
+		}
+
+		&-text {
+			padding: 0 1rem;
+			padding-bottom: 0.75rem;
+			text-align: center;
+			color: #6c757d;
+		}
+	}
+}

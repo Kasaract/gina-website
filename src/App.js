@@ -7,7 +7,6 @@ import NavBar from './share/NavBar';
 function App() {
 	return (
 		<Router>
-			<NavBar />
 			<Routes />
 		</Router>
 	);
