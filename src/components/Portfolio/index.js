@@ -17,7 +17,12 @@ const Portfolio = () => {
 		<div className="portfolio-wrapper">
 			<div className="row">
 				<div className="card">
-					<FontAwesomeIcon icon={faGavel} />
+					<div className="icon">
+						<FontAwesomeIcon
+							icon={faGavel}
+							style={{ width: '2em', height: '2em' }}
+						/>
+					</div>
 					<div className="card-title">law & ethics</div>
 					<div className="card-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -25,7 +30,12 @@ const Portfolio = () => {
 					</div>
 				</div>
 				<div className="card">
-					<FontAwesomeIcon icon={faUsers} />
+					<div className="icon">
+						<FontAwesomeIcon
+							icon={faUsers}
+							style={{ width: '2em', height: '2em' }}
+						/>
+					</div>
 					<div className="card-title">leadership & team building</div>
 					<div className="card-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -33,7 +43,12 @@ const Portfolio = () => {
 					</div>
 				</div>
 				<div className="card">
-					<FontAwesomeIcon icon={faBook} />
+					<div className="icon">
+						<FontAwesomeIcon
+							icon={faBook}
+							style={{ width: '2em', height: '2em' }}
+						/>
+					</div>
 					<div className="card-title">literary content</div>
 					<div className="card-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -44,7 +59,12 @@ const Portfolio = () => {
 
 			<div className="row">
 				<div className="card">
-					<FontAwesomeIcon icon={faCamera} />
+					<div className="icon">
+						<FontAwesomeIcon
+							icon={faCamera}
+							style={{ width: '2em', height: '2em' }}
+						/>
+					</div>
 					<div className="card-title">photography</div>
 					<div className="card-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -52,7 +72,12 @@ const Portfolio = () => {
 					</div>
 				</div>
 				<div className="card">
-					<FontAwesomeIcon icon={faRunning} />
+					<div className="icon">
+						<FontAwesomeIcon
+							icon={faRunning}
+							style={{ width: '2em', height: '2em' }}
+						/>
+					</div>
 					<div className="card-title">sports journalism</div>
 					<div className="card-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -60,7 +85,12 @@ const Portfolio = () => {
 					</div>
 				</div>
 				<div className="card">
-					<FontAwesomeIcon icon={faColumns} />
+					<div className="icon">
+						<FontAwesomeIcon
+							icon={faColumns}
+							style={{ width: '2em', height: '2em' }}
+						/>
+					</div>
 					<div className="card-title">web</div>
 					<div className="card-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -71,7 +101,12 @@ const Portfolio = () => {
 
 			<div className="row">
 				<div className="card">
-					<FontAwesomeIcon icon={faPen} />
+					<div className="icon">
+						<FontAwesomeIcon
+							icon={faPen}
+							style={{ width: '2em', height: '2em' }}
+						/>
+					</div>
 					<div className="card-title">writing</div>
 					<div className="card-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -79,7 +114,12 @@ const Portfolio = () => {
 					</div>
 				</div>
 				<div className="card">
-					<FontAwesomeIcon icon={faUsers} />
+					<div className="icon">
+						<FontAwesomeIcon
+							icon={faUsers}
+							style={{ width: '2em', height: '2em' }}
+						/>
+					</div>
 					<div className="card-title">writing</div>
 					<div className="card-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -87,7 +127,12 @@ const Portfolio = () => {
 					</div>
 				</div>
 				<div className="card">
-					<FontAwesomeIcon icon={faCamera} />
+					<div className="icon">
+						<FontAwesomeIcon
+							icon={faCamera}
+							style={{ width: '2em', height: '2em' }}
+						/>
+					</div>
 					<div className="card-title">something else</div>
 					<div className="card-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

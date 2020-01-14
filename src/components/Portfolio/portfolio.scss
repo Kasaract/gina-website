@@ -12,9 +12,15 @@
 
 	.card {
 		border: 1px dotted #e7e7e7;
-		width: 12.5rem;
+		width: 15rem;
 		height: 12.5rem;
 		margin: 1em 2.5em;
+
+		.icon {
+			display: flex;
+			justify-content: center;
+			margin-top: 1rem;
+		}
 
 		&-img {
 			height: 50px;
