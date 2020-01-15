@@ -2,8 +2,8 @@ import React from 'react';
 
 import './contact.scss';
 import Facebook from './images/facebook.svg';
-import Instagram from './images/instagram.svg';
-import LinkedIn from './images/linkedin.svg';
+import Instagram from './images/instagram2.svg';
+import LinkedIn from './images/linkedin2.svg';
 import Twitter from './images/twitter.svg';
 
 const Contact = () => {
