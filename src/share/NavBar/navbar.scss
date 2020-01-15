@@ -33,8 +33,38 @@
 			border-right: 1.2px rgb(214, 214, 214) solid;
 		}
 
+		.active {
+			position: relative;
+			display: inline-block;
+			z-index:0;
+		}
+
+		.active::before {
+			content: '';
+			position: absolute;
+			z-index: -1;
+			left: 0;
+			right: 0;
+			bottom: -7px;
+			height: 0.2px;
+			border: 1px solid #464646;
+			border-radius : 10px;
+			background-color: #464646;
+			animation: fadeIn 0.75s linear;
+		}
+
 		#last-tab {
 			border-right: none;
 		}
 	}
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }

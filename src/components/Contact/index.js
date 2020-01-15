@@ -1,4 +1,5 @@
 import React from 'react';
+import { Element } from 'react-scroll';
 
 import './contact.scss';
 import Facebook from './images/facebook.svg';
@@ -8,23 +9,25 @@ import Twitter from './images/twitter.svg';
 
 const Contact = () => {
 	return (
-		<div className="contact-wrapper">
-			<div className="heading">Feel free to reach out!</div>
-			<ul className="social-media-list">
-				<li className="icon-wrapper">
-					<img src={Facebook} className="icon" alt="social-media-icon" />
-				</li>
-				<li className="icon-wrapper">
-					<img src={Instagram} className="icon" alt="social-media-icon" />
-				</li>
-				<li className="icon-wrapper">
-					<img src={LinkedIn} className="icon" alt="social-media-icon" />
-				</li>
-				<li className="icon-wrapper">
-					<img src={Twitter} className="icon" alt="social-media-icon" />
-				</li>
-			</ul>
-		</div>
+		<Element name="contact">
+			<div className="contact-wrapper">
+				<div className="heading">Feel free to reach out!</div>
+				<ul className="social-media-list">
+					<li className="icon-wrapper">
+						<img src={Facebook} className="icon" alt="social-media-icon" />
+					</li>
+					<li className="icon-wrapper">
+						<img src={Instagram} className="icon" alt="social-media-icon" />
+					</li>
+					<li className="icon-wrapper">
+						<img src={LinkedIn} className="icon" alt="social-media-icon" />
+					</li>
+					<li className="icon-wrapper">
+						<img src={Twitter} className="icon" alt="social-media-icon" />
+					</li>
+				</ul>
+			</div>
+		</Element>
 	);
 };
 
