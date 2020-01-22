@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/gina-website/static/css/main.ddfb772f.chunk.css",
-    "main.js": "/gina-website/static/js/main.01d556f1.chunk.js",
-    "main.js.map": "/gina-website/static/js/main.01d556f1.chunk.js.map",
+    "main.css": "/gina-website/static/css/main.a512bbed.chunk.css",
+    "main.js": "/gina-website/static/js/main.0a48bbec.chunk.js",
+    "main.js.map": "/gina-website/static/js/main.0a48bbec.chunk.js.map",
     "runtime-main.js": "/gina-website/static/js/runtime-main.06531177.js",
     "runtime-main.js.map": "/gina-website/static/js/runtime-main.06531177.js.map",
-    "static/js/2.69616dcf.chunk.js": "/gina-website/static/js/2.69616dcf.chunk.js",
-    "static/js/2.69616dcf.chunk.js.map": "/gina-website/static/js/2.69616dcf.chunk.js.map",
+    "static/js/2.728b65dd.chunk.js": "/gina-website/static/js/2.728b65dd.chunk.js",
+    "static/js/2.728b65dd.chunk.js.map": "/gina-website/static/js/2.728b65dd.chunk.js.map",
     "index.html": "/gina-website/index.html",
-    "precache-manifest.cda4255845fab88c0da96e5e23a30b0c.js": "/gina-website/precache-manifest.cda4255845fab88c0da96e5e23a30b0c.js",
+    "precache-manifest.ed3dfa2fe444cd59c5795ca64e6b4c34.js": "/gina-website/precache-manifest.ed3dfa2fe444cd59c5795ca64e6b4c34.js",
     "service-worker.js": "/gina-website/service-worker.js",
-    "static/css/main.ddfb772f.chunk.css.map": "/gina-website/static/css/main.ddfb772f.chunk.css.map",
-    "static/js/2.69616dcf.chunk.js.LICENSE": "/gina-website/static/js/2.69616dcf.chunk.js.LICENSE"
+    "static/css/main.a512bbed.chunk.css.map": "/gina-website/static/css/main.a512bbed.chunk.css.map",
+    "static/js/2.728b65dd.chunk.js.LICENSE": "/gina-website/static/js/2.728b65dd.chunk.js.LICENSE",
+    "static/media/facebook.svg": "/gina-website/static/media/facebook.a8e3b6d1.svg",
+    "static/media/instagram2.svg": "/gina-website/static/media/instagram2.36222e9a.svg",
+    "static/media/linkedin2.svg": "/gina-website/static/media/linkedin2.f93e0b71.svg",
+    "static/media/twitter.svg": "/gina-website/static/media/twitter.cf03fd28.svg",
+    "static/media/white.JPG": "/gina-website/static/media/white.a1a49c84.JPG",
+    "static/media/yellow.JPG": "/gina-website/static/media/yellow.eab5be85.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.06531177.js",
-    "static/js/2.69616dcf.chunk.js",
-    "static/css/main.ddfb772f.chunk.css",
-    "static/js/main.01d556f1.chunk.js"
+    "static/js/2.728b65dd.chunk.js",
+    "static/css/main.a512bbed.chunk.css",
+    "static/js/main.0a48bbec.chunk.js"
   ]
 }
