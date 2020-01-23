@@ -1,0 +1,61 @@
+$photo-square-length: 10rem;
+$photo-rectangle-length: ($photo-square-length * 3)/2;
+
+.photography-wrapper {
+	padding: 2em;
+
+	.section-title {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		font-size: 2rem;
+		margin-bottom: 1rem;
+		margin-top: 5rem;
+	
+		.title::before {
+			display: inline-block;
+			margin-top: 0px;
+			vertical-align: middle;
+			content: '';
+			background-color: #c2c2c2;
+			width: 40px;
+			height: 2px;
+		}
+	
+		.title::after {
+			display: inline-block;
+			margin-top: 0px;
+			vertical-align: middle;
+			content: '';
+			background-color: #c2c2c2;
+			width: 40px;
+			height: 2px;
+		}
+	}
+
+	.section {
+		margin: 0 0 1rem 0;
+		.header {
+			margin: 0 0 0.5rem 0;
+		}
+
+		.photo-row {
+			margin: 0 0 0.5rem 0;
+			display: flex;
+			.photo {
+				background-color: gray;
+				margin: 0 0.5rem 0 0;
+			}
+
+			.square {
+				height: $photo-square-length;
+				width: $photo-square-length;
+			}
+
+			.rectangle {
+				height: $photo-square-length;
+				width: $photo-rectangle-length;
+			}
+		}
+	}
+}
