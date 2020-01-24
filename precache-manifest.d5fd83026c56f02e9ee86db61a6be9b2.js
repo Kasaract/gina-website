@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb01ba99377bd9e23fd875b544023caa",
+    "revision": "57c4342dd9195237b9425cee9c8a2100",
     "url": "/gina-website/index.html"
   },
   {
-    "revision": "29af43b23c0a9252fb78",
-    "url": "/gina-website/static/css/main.a512bbed.chunk.css"
+    "revision": "2d1e954f8f932d343ff4",
+    "url": "/gina-website/static/css/main.6c7b6de9.chunk.css"
   },
   {
-    "revision": "d952a04bd3a443cc5702",
-    "url": "/gina-website/static/js/2.728b65dd.chunk.js"
+    "revision": "86baa6c6d4646bd5401a",
+    "url": "/gina-website/static/js/2.73a6e9a8.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/gina-website/static/js/2.728b65dd.chunk.js.LICENSE"
+    "url": "/gina-website/static/js/2.73a6e9a8.chunk.js.LICENSE"
   },
   {
-    "revision": "29af43b23c0a9252fb78",
-    "url": "/gina-website/static/js/main.0a48bbec.chunk.js"
+    "revision": "2d1e954f8f932d343ff4",
+    "url": "/gina-website/static/js/main.6fad640b.chunk.js"
   },
   {
     "revision": "434501365b5774b21173",
