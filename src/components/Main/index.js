@@ -7,13 +7,13 @@ import Portfolio from '../../components/Portfolio';
 import Contact from '../../components/Contact';
 
 const Main = () => (
-  <div className="main-wrapper">
-    <NavBar />
-    <Home />
-    <About />
-    <Portfolio />
-    <Contact />
-  </div>
-)
+	<div>
+		<NavBar />
+		<Home />
+		<About />
+		<Portfolio />
+		<Contact />
+	</div>
+);
 
 export default Main;

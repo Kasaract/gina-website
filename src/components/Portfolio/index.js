@@ -12,17 +12,81 @@ import {
 	faPen
 } from '@fortawesome/free-solid-svg-icons';
 
-import './portfolio.scss';
+// import './portfolio.scss';
 
 const Portfolio = () => {
 	return (
 		<Element name="portfolio">
-			<div className="portfolio-wrapper">
-				<div className="section-title">
-					<div className="title"> portfolio </div>
+			<h2 className="text-center"> portfolio </h2>
+			<div className="row">
+				<div className="col">
+					<Link to="/portfolio/lawethics" style={{ color: 'black' }}>
+						<div className="card">
+							<div className="card-img-top d-flex justify-content-center">
+								<FontAwesomeIcon
+									icon={faGavel}
+									style={{ width: '2em', height: '2em' }}
+								/>
+							</div>
+							<div className="card-body">
+								<h4 className="card-title text-center">law & ethics</h4>
+								<p className="card-text text-center">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod
+								</p>
+							</div>
+						</div>
+					</Link>
 				</div>
-				<div className="row">
-					<Link to="/portfolio/lawethics">
+
+				<div className="col">
+					<Link to="/portfolio/lawethics" style={{ color: 'black' }}>
+						<div className="card">
+							<div className="card-img-top d-flex justify-content-center">
+								<FontAwesomeIcon
+									icon={faGavel}
+									style={{ width: '2em', height: '2em' }}
+								/>
+							</div>
+							<div className="card-body">
+								<h4 className="card-title text-center">law & ethics</h4>
+								<p className="card-text text-center">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod
+								</p>
+							</div>
+						</div>
+					</Link>
+				</div>
+
+				<div className="col">
+					<Link to="/portfolio/lawethics" style={{ color: 'black' }}>
+						<div className="card">
+							<div className="card-img-top d-flex justify-content-center">
+								<FontAwesomeIcon
+									icon={faGavel}
+									style={{ width: '2em', height: '2em' }}
+								/>
+							</div>
+							<div className="card-body">
+								<h4 className="card-title text-center">law & ethics</h4>
+								<p className="card-text text-center">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod
+								</p>
+							</div>
+						</div>
+					</Link>
+				</div>
+			</div>
+		</Element>
+	);
+};
+
+export default Portfolio;
+
+{
+	/* <Link to="/portfolio/lawethics">
 						<div className="card">
 							<div className="icon">
 								<FontAwesomeIcon
@@ -36,141 +100,5 @@ const Portfolio = () => {
 								eiusmod
 							</div>
 						</div>
-					</Link>
-
-					<Link to="/portfolio/leadership">
-						<div className="card">
-							<div className="icon">
-								<FontAwesomeIcon
-									icon={faUsers}
-									style={{ width: '2em', height: '2em' }}
-								/>
-							</div>
-							<div className="card-title">leadership & team building</div>
-							<div className="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod
-							</div>
-						</div>
-					</Link>
-
-					<Link to="/portfolio/literarycontent">
-						<div className="card">
-							<div className="icon">
-								<FontAwesomeIcon
-									icon={faBook}
-									style={{ width: '2em', height: '2em' }}
-								/>
-							</div>
-							<div className="card-title">literary content</div>
-							<div className="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod
-							</div>
-						</div>
-					</Link>
-				</div>
-
-				<div className="row">
-					<Link to="/portfolio/photography">
-						<div className="card">
-							<div className="icon">
-								<FontAwesomeIcon
-									icon={faCamera}
-									style={{ width: '2em', height: '2em' }}
-								/>
-							</div>
-							<div className="card-title">photography</div>
-							<div className="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod
-							</div>
-						</div>
-					</Link>
-
-					<Link to="/portfolio/sportsjournalism">
-						<div className="card">
-							<div className="icon">
-								<FontAwesomeIcon
-									icon={faRunning}
-									style={{ width: '2em', height: '2em' }}
-								/>
-							</div>
-							<div className="card-title">sports journalism</div>
-							<div className="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod
-							</div>
-						</div>
-					</Link>
-
-					<Link to="/portfolio/web">
-						<div className="card">
-							<div className="icon">
-								<FontAwesomeIcon
-									icon={faColumns}
-									style={{ width: '2em', height: '2em' }}
-								/>
-							</div>
-							<div className="card-title">web</div>
-							<div className="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod
-							</div>
-						</div>
-					</Link>
-				</div>
-
-				<div className="row">
-					<Link to="/portfolio/writing">
-						<div className="card">
-							<div className="icon">
-								<FontAwesomeIcon
-									icon={faPen}
-									style={{ width: '2em', height: '2em' }}
-								/>
-							</div>
-							<div className="card-title">writing</div>
-							<div className="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod
-							</div>
-						</div>
-					</Link>
-
-					<Link to="/portfolio/writing">
-						<div className="card">
-							<div className="icon">
-								<FontAwesomeIcon
-									icon={faUsers}
-									style={{ width: '2em', height: '2em' }}
-								/>
-							</div>
-							<div className="card-title">writing</div>
-							<div className="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod
-							</div>
-						</div>
-					</Link>
-
-					<div className="card">
-						<div className="icon">
-							<FontAwesomeIcon
-								icon={faCamera}
-								style={{ width: '2em', height: '2em' }}
-							/>
-						</div>
-						<div className="card-title">something else</div>
-						<div className="card-text">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod
-					</div>
-					</div>
-				</div>
-			</div>
-		</Element>
-	);
-};
-
-export default Portfolio;
+					</Link> */
+}

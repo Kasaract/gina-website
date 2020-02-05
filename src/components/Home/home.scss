@@ -1,34 +1,15 @@
-.home-wrapper {
-	width: 100vw;
+.background {
+	background: url('../../assets/images/home.jpg') no-repeat center fixed;
+	background-size: cover;
 	height: 100vh;
-	overflow: hidden;
+	width: 100vw;
+}
 
-	img {
-		width: 100%;
-		margin-top: 8vh;
-	}
-
-	.social-media {
-		position: relative;
-		top: 85vh;
-		margin: 0 1em;
-		padding: 0;
-		width: 12.5em;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		list-style: none;
-
-		.icon {
-			// Temporarory shape
-			height: 35px;
-			width: 35px;
-			background-color: white;
-			border-radius: 100%;
-
-			&:hover {
-				background-color: lightgrey;
-			}
-		}
-	}
+.layer {
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
